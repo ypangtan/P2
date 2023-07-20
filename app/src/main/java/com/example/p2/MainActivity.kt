@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         val editText : EditText = findViewById(R.id.nickname_edit)
         val nicknameTextView : TextView = findViewById(R.id.nickname_text)
 
-        nicknameTextView.text =editText.text
+        nicknameTextView.text =editText.text.toString()
         editText.visibility = View.GONE
         view.visibility = View.GONE
         nicknameTextView.visibility = View.VISIBLE
